@@ -1,0 +1,26 @@
+Priscila Guzmán
+=== Procedimiento para calcular el precio total con IVA ===
+1. Iniciar el programa.
+2. Solicitar al usuario que ingrese el precio unitario del producto.
+3. Solicitar al usuario la cantidad de unidades del producto.
+4. Calcular el subtotal del producto multiplicado por la cantidad.
+5. Calcular el IVA.
+6. Calcular el precio total sumando el subtotal mas el IVA.
+7. Mostrar el subtotal, el IVA y el precio total.
+8. Preguntar al usuario si quiere ingresar más productos.
+9. Si es un si se repite desde el paso 2.
+10. Si es un no se sale del bucle y muestra el resultado final que es el total con el IVA incluido.
+11. Finalizar el programa.
+
+=== Explicación ===
+1. Inicio del programa: se muestra un mensaje de inicio "SISTEMA CON IVA"
+2. Tiene un bucle principal do-while, que permite ingresar los productos necesario, esto se repite hasta que el usuario elija "n" significa que ya no quiere agregar más productos.
+3. Para ingresar el precio del producto se usa hasNextDouble() por si el usuario escribe una letra o escribe un número negativo mostrara un error y se repetirá para ingresar el precio correcto y si es con decimales.
+4. Para ingresar la cantidad de producto se usa hasNextInt() esto para que se ingrese un número entero y que no sea negativo.
+5. Se hace el cálculo de todo:
+El subtotal: precio unitario*cantidad
+IVA: subtotal*0.12
+Total por producto: subtotal+IVA
+Luego se acumula en totalgeneral para obtener la suma de todos los productos ingresados.
+6. Pregunta si desea seguir agregando productos.
+7. Se muestra el total general de la compra con IVA incluido.
