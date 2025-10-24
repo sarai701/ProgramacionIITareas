@@ -1,0 +1,3 @@
+ID Cita,Fecha y Hora,Motivo,Estado,ID Mascota,ID Personal,ID Servicio
+2,2025-10-16 15:30:00.0,"Dosis de refuerzo",Programada,2,2,2
+1,2025-10-15 10:00:00.0,"Chequeo anual",Programada,1,1,1
